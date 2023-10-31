@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 HELP.md
 target/
 !.mvn/wrapper/maven-wrapper.jar
@@ -31,3 +32,23 @@ build/
 
 ### VS Code ###
 .vscode/
+=======
+workspace.xml
+junitvmwatcher*.properties
+build.properties
+
+# generated java classes and java source files
+#   manually add any custom artifacts that can't be generated from the models
+#   http://confluence.jetbrains.com/display/MPSD25/HowTo+--+MPS+and+Git
+classes_gen
+source_gen
+source_gen.caches
+
+# generated test code and test results
+test_gen
+test_gen.caches
+TEST-*.xml
+junit*.properties
+
+.metadata
+>>>>>>> b2d9fae1e6cede14a81fb17515d696b3c0986c83
